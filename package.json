@@ -2,8 +2,7 @@
   "name": "typescript-jest-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "jest": "^24.1.0",
     "@types/jest": "^24.0.6",
@@ -13,8 +12,8 @@
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.3.3"
   },
-  "main": "lib/index",
-  "types": "lib/index",
+  "main": "dist/index",
+  "types": "dist/index",
   "scripts": {
     "start": "npm run build:live",
     "build": "tsc -p . ",
