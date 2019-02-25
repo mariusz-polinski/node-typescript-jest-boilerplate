@@ -62,6 +62,7 @@ typings/
 
 # IDE config directory
 .vscode
+!sample-ide-configs/.vscode
 
 # compiled JS files
 dist/
